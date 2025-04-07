@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h2>Faculty Info</h2>
+<p>Details about faculty members will be displayed here.</p>
+<a href="https://bciit.ac.in/member-profile.php" class="btn btn-warning">View Faculty Profiles</a>
+<br><br>
+<a href="{% url 'home' %}" class="btn btn-secondary">Back to Home</a>
+{% endblock %}
