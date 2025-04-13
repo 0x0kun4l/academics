@@ -1,9 +1,183 @@
 {% extends 'base.html' %}
+{% load static %}
 
 {% block content %}
-<h2>Faculty Info</h2>
-<p>Details about faculty members will be displayed here.</p>
-<a href="https://bciit.ac.in/member-profile.php" class="btn btn-warning">View Faculty Profiles</a>
-<br><br>
-<a href="{% url 'home' %}" class="btn btn-secondary">Back to Home</a>
+
+<!-- Heading -->
+<div class="text-center my-4">
+  <h2 class="fw-bold">Members Profile</h2>
+  <hr style="height: 4px; background-color: #007BFF; border: none; width: 100%;">
+</div>
+
+<!-- Faculty Grid -->
+<div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4">
+
+
+  <div class="col">
+    <div class="card h-100 text-center border border-primary shadow-lg rounded-4">
+      <img src="{% static 'images/anu.jpg' %}" class="card-img-top" alt="Dr. Anu Taneja">
+      <div class="card-body">
+        <h5 class="card-title">Dr. Anu Taneja</h5>
+        <p>Associate Professor</p>
+        <small>Specialization: C++, Computer Graphics</small>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="col">
+    <div class="card h-100 text-center border border-primary shadow-lg rounded-4">
+      <img src="{% static 'images/sandeep.jpg' %}" class="card-img-top" alt="Mr. Sandeep Jain">
+      <div class="card-body">
+        <h5 class="card-title">Mr. Sandeep Jain</h5>
+        <p>Asstt. Professor</p>
+        <small>Specialization: Computer Networks</small>
+      </div>
+    </div>
+  </div>
+
+ 
+  <div class="col">
+    <div class="card h-100 text-center border border-primary shadow-lg rounded-4">
+      <img src="{% static 'images/smriti.jpg' %}" class="card-img-top" alt="Ms. Smriti Sharma">
+      <div class="card-body">
+        <h5 class="card-title">Ms. Smriti Sharma</h5>
+        <p>Assistant Professor</p>
+        <small>Specialization: Python</small>
+      </div>
+    </div>
+  </div>
+  
+  <div class="col">
+    <div class="card h-100 text-center border border-primary shadow-lg rounded-4">
+      <img src="{% static 'images/akshit.jpg' %}" class="card-img-top" alt="Mr. Akshit Thakur">
+      <div class="card-body">
+        <h5 class="card-title">Mr. Akshit Thakur</h5>
+        <p>Asst. Professor</p>
+        <small>Specialization: Cyber Ethics, Cyber Security</small>
+      </div>
+    </div>
+  </div>
+
+  <div class="col">
+    <div class="card h-100 text-center border border-primary shadow-lg rounded-4">
+      <img src="{% static 'images/sonia.jpg' %}" class="card-img-top" alt="Ms. Sonia Batra">
+      <div class="card-body">
+        <h5 class="card-title">Ms. Sonia Batra</h5>
+        <p>Asstt. Professor</p>
+        <small>Specialization: Data Structures and Algorithms</small>
+      </div>
+    </div>
+  </div>
+
+  <div class="col">
+    <div class="card h-100 text-center border border-primary shadow-lg rounded-4">
+      <img src="{% static 'images/meetendra.jpg' %}" class="card-img-top" alt="Mr. Meetender">
+      <div class="card-body">
+        <h5 class="card-title">Mr. Meetender</h5>
+        <p>Asstt. Professor</p>
+        <small>Specialization: Java Programming</small>
+      </div>
+    </div>
+  </div>
+
+  <div class="col">
+    <div class="card h-100 text-center border border-primary shadow-lg rounded-4">
+      <img src="{% static 'images/alok.jpg' %}" class="card-img-top" alt="Mr. Alok Mishra">
+      <div class="card-body">
+        <h5 class="card-title">Mr. Alok Mishra</h5>
+        <p>Asst. Professor</p>
+        <small>Specialization: Web Dev with Django & Python</small>
+      </div>
+    </div>
+  </div>
+
+  <div class="col">
+    <div class="card h-100 text-center border border-primary shadow-lg rounded-4">
+      <img src="{% static 'images/gomathy.jpg' %}" class="card-img-top" alt="Dr. Gomathy M">
+      <div class="card-body">
+        <h5 class="card-title">Dr. Gomathy M</h5>
+        <p>Asst. Professor</p>
+        <small>Specialization: Web Tech, COA</small>
+      </div>
+    </div>
+  </div>
+
+  <div class="col">
+    <div class="card h-100 text-center border border-primary shadow-lg rounded-4">
+      <img src="{% static 'images/mansi.jpg' %}" class="card-img-top" alt="Ms. Mansi Vats">
+      <div class="card-body">
+        <h5 class="card-title">Ms. Mansi Vats</h5>
+        <p>Asst. Professor</p>
+        <small>Specialization: DBMS, FIT</small>
+      </div>
+    </div>
+  </div>
+
+  <div class="col">
+    <div class="card h-100 text-center border border-primary shadow-lg rounded-4">
+      <img src="{% static 'images/sanjana.jpg' %}" class="card-img-top" alt="Ms. Sanjana Gulia">
+      <div class="card-body">
+        <h5 class="card-title">Ms. Sanjana Gulia</h5>
+        <p>Asst. Professor</p>
+        <small>Specialization: Technical Communication & Literature</small>
+      </div>
+    </div>
+  </div>
+
+  <div class="col">
+    <div class="card h-100 text-center border border-primary shadow-lg rounded-4">
+      <img src="{% static 'images/preeti.jpg' %}" class="card-img-top" alt="Ms. Preeti Sharma">
+      <div class="card-body">
+        <h5 class="card-title">Ms. Preeti Sharma</h5>
+        <p>Asst. Professor</p>
+        <small>Specialization: AI & ML Computing</small>
+      </div>
+    </div>
+  </div>
+
+  <div class="col">
+    <div class="card h-100 text-center border border-primary shadow-lg rounded-4">
+      <img src="{% static 'images/pallavi.jpg' %}" class="card-img-top" alt="Ms. Pallavi Bhatt">
+      <div class="card-body">
+        <h5 class="card-title">Ms. Pallavi Bhatt</h5>
+        <p>Asst. Professor</p>
+        <small>Specialization: C++, OOPS</small>
+      </div>
+    </div>
+  </div>
+
+  <div class="col">
+    <div class="card h-100 text-center border border-primary shadow-lg rounded-4">
+      <img src="{% static 'images/harsh.jpg' %}" class="card-img-top" alt="Dr. Harsh Arora">
+      <div class="card-body">
+        <h5 class="card-title">Dr. Harsh Arora</h5>
+        <p>Asst. Professor</p>
+        <small>Specialization: C++, DSA, Software Engineering</small>
+      </div>
+    </div>
+  </div>
+
+  <div class="col">
+    <div class="card h-100 text-center border border-primary shadow-lg rounded-4">
+      <img src="{% static 'images/kritika.jpg' %}" class="card-img-top" alt="Ms Kritika">
+      <div class="card-body">
+        <h5 class="card-title">Ms Kritika</h5>
+        <p>Asst. Professor</p>
+        <small>Specialization: Data Science & Machine Learning</small>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<!-- Back Button -->
+<div class="text-center mt-5">
+  <a href="javascript:history.back()" class="btn btn-warning">← Back</a>
+</div>
+
+
+</div>
+
+
 {% endblock %}

@@ -2,17 +2,120 @@
 {% load static %}
 
 {% block content %}
-<div class="homepage-bg">
-    <h2 class="welcome-text">Welcome to BCIIT</h2>
+
+<div class="container text-center">
+    <img src="{% static 'images/bciit.png' %}" class="logo img-fluid">
 </div>
+
+
+<!-- Hero Section -->
+
+<div class="text-center">
+    <img src="{% static 'images/bg.jpg' %}" class="img-fluid w-100 rounded-5 shadow-sm" alt="Welcome Image">
+    <h2 class="welcome-text mt-3"></h2>
+</div>
+
+<br>
+<br>
+<br>
+<!-- About Section -->
 <div class="container mt-4">
-    <div class="row">
-        <div class="col-12 col-md-8 offset-md-2">
-            <h3 class="about-title">About BCIIT</h3>
-            <p class="about-text">
-                Banarsidas Chandiwala Institute of Information Technology (BCIIT) was established in 1999 to run Master of Computer Application (MCA) programme. The Institute is affiliated with Guru Gobind Singh Indraprastha University (GGSIPU), Delhi for awarding the degree and is approved by the All India Council of Technical Education (AICTE), Ministry of HRD, Government of India. The Institute is established under the aegis of Sri Banarsidas Chandiwala Sewa Smarak Trust Society (SBCSSTS), a charitable Society working in the field of health and education since 1952.
-            </p>
-        </div>
-    </div>
+  <div class="row">
+      <div class="col-md-10 offset-md-1">
+          <div class="shadow-lg p-4 bg-body-tertiary rounded d-flex align-items-start">
+              <!-- Left-aligned Image -->
+              <div class="main-section about-us">
+                <img src="{% static "images/bciitc.jpg " %}" >
+                <div>
+                   <h2 class="heading"><b>About Our College</b></h2>
+                   <p>Banarsidas Chandiwala Institute of Information Technology (BCIIT) was established in 1999 to run Bachelor of Computer Application (BCA) and Master of Computer Application (MCA) programme. The Institute is affiliated with Guru Gobind Singh Indraprastha University, Delhi for awarding the degree and is approved by the All India Council of Technical Education (AICTE), Ministry of HRD, Government of India.The Institute is established under the aegis of Sri Banarsidas Chandiwala Sewa Smarak Trust Society, a charitable Society working in the field of health and education since 1952.</div>
+             </div>
+             <div id=about>
+             </div>
+          </div>
+      </div>
+  </div>
 </div>
+
+<br>
+<br>
+<br>
+
+
+<!-- Recruiters Carousel -->
+<div class="container mt-5">
+    <h2 class="text-center mb-4"> </h2>
+
+
+    <div class="main-section">
+        <h2 class="heading"><b>Our Prestige Recruiters</b></h2>
+
+
+        <marquee class="placement" direction="left" scrollamount="8">
+            <img src="{% static 'images/r1.jpeg' %}" class="img-fluid"> 
+            <img src="{% static 'images/r2.png' %}" class="img-fluid">  
+            <img src="{% static 'images/r3.png' %}" class="img-fluid">  
+            <img src="{% static 'images/r4.jpeg' %}" class="img-fluid">  
+            <img src="{% static 'images/r5.jpeg' %}" class="img-fluid">  
+            <img src="{% static 'images/r6.png' %}" class="img-fluid">  
+            <img src="{% static 'images/r7.jpeg' %}" class="img-fluid">  
+            <img src="{% static 'images/r8.jpeg' %}" class="img-fluid">  
+            <img src="{% static 'images/r9.png' %}" class="img-fluid">  
+            <img src="{% static 'images/r10.png' %}" class="img-fluid">  
+            <img src="{% static 'images/r11.png' %}" class="img-fluid">  
+            <img src="{% static 'images/r12.png' %}" class="img-fluid">  
+            <img src="{% static 'images/r13.png' %}" class="img-fluid">  
+            <img src="{% static 'images/r14.png' %}" class="img-fluid">  
+            <img src="{% static 'images/r15.png' %}" class="img-fluid">  
+            <img src="{% static 'images/r16.png' %}" class="img-fluid">  
+        </marquee>
+     </div>
+     
+      
+     <footer class="site-footer">
+      <!-- Footer Image -->
+      
+    
+  
+      <div class="footer-container">
+          <div class="footer-column">
+              <h3>BCIIT</h3>
+              <p>The Institute is student centric where the faculty members are always alive to the needs of the students and are focussed to develop them to top class software professionals. The Programme Coordinator and mentors monitor the progress of each student. The students go through continuous evaluation for which tests are conducted every Monday. For the personality development the students undergo communication skills, etiquette, and organisation behaviour classes. To develop their competitive skills the students are subjected to debates, quizzes, software development tests, sports and cultural programmes.</p>
+          </div>
+  
+          <div class="footer-column">
+              <h3>Useful Links</h3>
+              <a href="https://www.facebook.com/bciit.ac.in?mibextid=ZbWKwL"><img src="{% static "images/Facebook.png " %}" height=100px width=100px></a>
+         <a href="https://www.linkedin.com/company/bciit?trk=blended-typeahead"><img src="{% static "images/linkdin.png " %}" height=100px width=100px></a>
+         <a href="https://www.instagram.com/bciit?igsh=eTV3cnpna3JuZHhv"><img src="{% static "images/insta.jpg " %}" height=100px width=100px></a>
+          </div>
+  
+          <div class="footer-column">
+              <h3>Get in Touch</h3>
+              <p>📍 Chandiwala Estate, Maa Anandmai Marg, Kalkaji, New Delhi-110019</p>
+              <p>📞 +91-11-49020144</p>
+              <p>✉️ <a href="mailto:director@bciit.ac.in">director@bciit.ac.in</a></p>
+              <p>🌐 <a href="http://www.bciit.ac.in" target="_blank">www.bciit.ac.in</a></p>
+          </div>
+      </div>
+  
+      <footer class="site-footer">
+        <div class="footer-container">
+            <!-- Your 3 columns with content here -->
+        </div>
+    
+        <div class="footer-bottom">
+            <p>&copy; 2024 Banarsidas Chandiwala Institute of Information Technology. All rights reserved.</p>
+        </div>
+    </footer>
+    
+  </footer>
+  
+  
+      
+</body>
+</html>
+
+    
+
 {% endblock %}
